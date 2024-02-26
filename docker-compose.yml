@@ -1,0 +1,8 @@
+version: '1'
+
+services:
+  deploy-astro-nginx:
+    build: .
+    container_name: astro-nginx
+    ports:
+      - "8080:80"
